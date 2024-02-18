@@ -1,0 +1,84 @@
+.card {
+    width: 80%;
+    text-align: center;
+    border: 2px solid;
+    margin-top: 40px;
+    color: var(---black);
+    background-color: rgba(255, 253, 253, 0.95);
+    border: 2px solid var(---secondary-color);
+    border-radius: 5px;
+
+    padding: 15px;
+    /* border: none; */
+}
+
+.card__bookmark {
+    width: 40px;
+    position: relative;
+    left: 45%;
+    top: -30px;
+
+}
+
+.card__question {
+    margin: 10px 0px;
+}
+
+.card__button {
+    width: 150px;
+    height: 25px;
+    /* border: 2px solid var(---black); */
+    /* border: 2px solid var(--secondary-color); */
+    border: none;
+    background-color: var(---secondary-color);
+    color: var(---white);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.card__button:hover {
+    background-color: var(---primary-color);
+}
+
+.card__answer {
+    margin-top: 10px;
+    color: var(---primary-color);
+}
+
+.card__answer--hidden {
+    visibility: hidden;
+}
+
+
+.card__hashtags {
+    text-align: left;
+    margin: 15px 0px 10px 0px;
+    position: relative;
+    bottom: 0px;
+}
+
+.card__hashtags li {
+    display: inline-block;
+    /* line-height: 2px; */
+    background-color: var(---tertiary-color-transparent);
+    /* background-color: rgb(88, 124, 159, 0.6); */
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin: 5px 5px 0px 0px;
+}
+
+
+/* @media screen and (min-width:700px) {
+    .card {
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (min-width:1200px) {
+    .card {
+        width: 25%;
+    }
+
+} */

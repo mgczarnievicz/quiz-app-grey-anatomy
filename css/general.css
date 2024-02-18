@@ -1,0 +1,73 @@
+:root {
+    ---primary-color: rgb(24, 40, 65);
+    ---secondary-color: #235F85;
+    ---tertiary-color: #587C9F;
+    ---tertiary-color-transparent: rgba(88, 124, 159, 0.60);
+    --quaternary-color: #FBF2ED;
+    --fifth-color: #9F1B17;
+    ---primary-color-transparent: rgba(39, 69, 39, 0.459);
+    ---white: white;
+    ---black: black;
+
+    ---header-height: 100px;
+    ---footer-height: 80px;
+
+}
+
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+
+@font-face {
+    font-family: Satisfy;
+    src: url(../Satisfy/Satisfy-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    /* background: rgb(11, 11, 11); */
+    /* background-image: url("../img/reputation-1.jpeg"); */
+    /* background-size: cover;
+    background-color: rgba(250, 246, 246, 0.124); */
+}
+
+main {
+    padding-bottom: 10%;
+    margin-top: var(---header-height);
+    margin-bottom: var(---footer-height);
+}
+
+/* 
+body::before {
+    content: "";
+    background-image: url("../img/reputation.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    rgba(11, 11, 11, 1)
+} */
+
+/* background: rgb(11, 11, 11);
+background: linear-gradient(0deg, rgba(11, 11, 11, 1) 0%, rgba(254, 254, 254, 0.9430365896358543) 18%); */
+
+/* 
+body::before {
+    content: "";
+    background-image: url("../img/reputation-1.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+} */
