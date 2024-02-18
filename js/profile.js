@@ -105,22 +105,3 @@ function createSwitchElement() {
 
     return switchElement;
 }
-
-function switchEvent(e) {
-    e.stopPropagation();
-
-    // console.log('event switch: ', e.target.querySelector('input'));
-    console.log('event switch checked: ', e.target.checked);
-
-    if (e.target.checked) {
-        root.style.setProperty('---primary-color', '#092635');
-        root.style.setProperty('---secondary-color', '#1B4242');
-        root.style.setProperty('---tertiary-color', '#5C8374');
-        root.style.setProperty(
-            '---tertiary-color-transparent',
-            ' rgb(92, 131, 116, 0.459)'
-        );
-    }else{
-        
-    }
-}

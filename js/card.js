@@ -11,9 +11,6 @@ export default function createCard(cardInfo) {
     const answer = createAnswer(cardInfo.answer);
     const tags = createTags(cardInfo.tag);
 
-    bookmark.addEventListener('click', toggleBookmark);
-    answerButton.addEventListener('click', (e) => onClick(e, answer));
-
     card.append(bookmark, question, answerButton, answer, tags);
 
     return card;
@@ -66,8 +63,6 @@ function createTags(tagList) {
     }
     return tagsList;
 }
-
-
 
 function toggleBookmark(e) {
     const newSrc = e.target.src.includes('bookmark_filled.png')
