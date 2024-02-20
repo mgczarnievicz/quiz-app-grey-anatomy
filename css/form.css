@@ -1,0 +1,108 @@
+@import "./general.css";
+@import "./header.css";
+@import "./footer.css";
+
+form {
+    width: 80%;
+    background-color: var(---primary-color);
+    color: var(---white);
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    display: grid;
+    gap: 3px;
+}
+
+form button {
+    width: 200px;
+    border-radius: 12px;
+    border: none;
+    padding: 3px;
+    margin: 10px;
+    justify-self: center;
+    font-size: 1.3rem;
+    transition: 1s ease;
+}
+
+form button:hover {
+    background-color: var(---tertiary-color);
+    color: var(---white);
+}
+
+form button:active {
+    transform: scale(0.9);
+}
+
+
+form label {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+form input,
+form textarea {
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+.new-cards {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    gap: 20px;
+}
+
+form textarea:focus {
+    outline: 1px solid var(---fifth-color);
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__remaining-characters,
+.form__tags {
+    color: var(---white);
+    text-align: right;
+    font-size: 10px;
+}
+
+/* Small Screen */
+.card-container-forms {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 50px;
+}
+
+/* Big Screen. */
+@media screen and (min-width:700px) {
+    .main-container {
+        background-image: url("//i.etsystatic.com/36737071/r/il/b837c4/4151190219/il_fullxfull.4151190219_hba7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    /* .card-container {
+        grid-template-columns: 1fr 1fr;
+    } */
+
+}
+
+@media screen and (min-width:1000px) {
+    .form-main {
+        flex-direction: row;
+    }
+
+    .card-container-forms {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

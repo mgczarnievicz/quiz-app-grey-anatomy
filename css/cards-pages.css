@@ -4,8 +4,10 @@
 @import "./cards.css";
 
 
+
 /* Small Screen */
-.card-container {
+.main-container {
+    min-height: calc(100vh - var(---footer-height));
     background-image: url("//i.etsystatic.com/22977314/r/il/6a7937/5235927172/il_fullxfull.5235927172_ih4x.jpg");
     background-color: var(---white);
     background-repeat: repeat-y;
@@ -13,6 +15,11 @@
     background-position: center;
     background-attachment: fixed;
 
+
+}
+
+.card-container {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -29,31 +36,28 @@
 
 /* Big Screen. */
 @media screen and (min-width:700px) {
-    .card-container {
-        /* background-image: url("//i.pinimg.com/736x/c4/88/0e/c4880e3a3dbade77bfd21c0bf4ea30dd.jpg"); */
+    .main-container {
         background-image: url("//i.etsystatic.com/36737071/r/il/b837c4/4151190219/il_fullxfull.4151190219_hba7.jpg");
-
-        /* background-repeat: repeat-y; */
-
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+    }
+
+    .card-container {
         grid-template-columns: 1fr 1fr;
     }
 
 }
 
 @media screen and (min-width:1200px) {
-    .card-container {
-
+    .main-container {
         background: rgb(35, 95, 133);
         background: linear-gradient(0deg, var(---tertiary-color) 4%, rgba(254, 254, 254, 0.9) 90%);
-        /* background-image: url("//drabundlesvg.com/cdn/shop/products/DRA_107.jpg?v=1675314158&width=1946");
-        background-size: cover;
-        background-repeat: no-repeat; */
-
         background-attachment: fixed;
+    }
+
+    .card-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
