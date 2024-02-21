@@ -62,6 +62,7 @@ form textarea:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .form__remaining-characters,
@@ -74,6 +75,7 @@ form textarea:focus {
 /* Small Screen */
 .card-container-forms {
     width: 100%;
+    /* padding-top: 50px; */
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -99,34 +101,45 @@ form textarea:focus {
 @media screen and (min-width:1000px) {
     .form {
         margin: 0 10px;
-        position: sticky;
-        top: auto;
+        align-self: center;
     }
 
     .form-main {
         width: 100%;
+        height: calc(100vh - var(---footer-height) - var(---header-height));
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
         flex-direction: row;
+        align-items: flex-start;
+        overflow: hidden;
     }
 
     .card-container-forms {
+        height: calc(95vh - var(---footer-height) - var(---header-height));
         grid-template-columns: 1fr;
-        gap: 0px;
+        gap: 5px;
+        overflow: auto;
     }
+
 
 }
 
 @media screen and (min-width:1400px) {
     .form {
-        /* width: 50%; */
         width: 600px;
+        align-self: center;
     }
 
     .form-main {
         width: 100%;
+        height: calc(100vh - var(---footer-height) - var(---header-height));
         flex-direction: row;
+        overflow: hidden;
     }
 
     .card-container-forms {
+        height: calc(100vh - var(---footer-height) - var(---header-height));
         grid-template-columns: 1fr 1fr;
         gap: 0px;
     }
