@@ -3,7 +3,7 @@ import createCard from './card.js';
 
 const cardContainer = document.querySelector('[data-js="card-container"]');
 
-quizData.forEach((element) => {
+data.forEach((element) => {
     const card = createCard(element);
     cardContainer.append(card);
 });
