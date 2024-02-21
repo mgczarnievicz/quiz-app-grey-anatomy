@@ -11,10 +11,6 @@ const cardsBooked = quizData.filter((element) => element.bookmark);
 
 createProfilePage(name, image, about, quizData.length, cardsBooked.length);
 
-const switchToggle = document.querySelector('[data-js="toggle-switch"]');
-console.log('switchToggle', switchToggle);
-switchToggle.addEventListener('click', switchEvent);
-
 function createProfilePage(name, image, about, amountCards, amountBookmark) {
     const profilePic = newPictureElement(image, name, 'profile__picture');
     const nameElement = textElement('h1', name, ['profile__name']);
