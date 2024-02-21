@@ -120,7 +120,13 @@ function switchEvent(e) {
             '---tertiary-color-transparent',
             ' rgb(92, 131, 116, 0.459)'
         );
-    }else{
-        
+    } else {
+        root.style.setProperty('---primary-color', 'rgb(24, 40, 65)');
+        root.style.setProperty('---secondary-color', '#235F85');
+        root.style.setProperty('---tertiary-color', '#587C9F');
+        root.style.setProperty(
+            '---tertiary-color-transparent',
+            'rgba(88, 124, 159, 0.60)'
+        );
     }
 }
