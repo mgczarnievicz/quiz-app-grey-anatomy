@@ -82,18 +82,22 @@ This project helps students understand:
 
 ## Preview
 
-### Part 1
+### Home Page
 
-![Home page](./preview/quiz-app-part-1.gif)
+![Home page](https://raw.githubusercontent.com/mgczarnievicz/quiz-app-grey-anatomy/main/preview/greys-anatomy-home.gif)
 
-### Part 2: Home Page
+### Bookmark Page
 
-![Home Page](./preview/quiz-app-p2-home.gif)
+![Bookmark page](https://raw.githubusercontent.com/mgczarnievicz/quiz-app-grey-anatomy/main/preview/greys-anatomy-bookmark.gif)
 
-### Part 2: Bookmark Page
+### Add Question
 
-![Bookmark page](./preview/quiz-app-p2-bookmark.gif)
+![Add Question](https://raw.githubusercontent.com/mgczarnievicz/quiz-app-grey-anatomy/main/preview/greys-anatomy-addquestion.gif)
 
-### Part 2: Add Question
+### Profile
 
-![Add Question](./preview/quiz-app-p2-add-card.gif)
+![Profile Page](https://raw.githubusercontent.com/mgczarnievicz/quiz-app-grey-anatomy/main/preview/greys-anatomy-profile.gif)
+
+### Responsive
+
+![Responsive](https://raw.githubusercontent.com/mgczarnievicz/quiz-app-grey-anatomy/main/preview/greys-anatomy-responsive.gif)
