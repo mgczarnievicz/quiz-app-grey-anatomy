@@ -16,7 +16,7 @@
 				},
 				{
 					"key": "Content-Security-Policy",
-					"value": "default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
+					"value": "default-src 'self'; img-src 'self' data:; script-src 'self' ; style-src 'self';"
 				}
 			]
 		}

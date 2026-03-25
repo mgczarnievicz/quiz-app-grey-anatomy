@@ -2,14 +2,20 @@
 
 ## Overview
 
-The **Grey's Anatomy Quiz App** is a project from the Web Development Bootcamp at Spiced Academy. This repository showcases **Project 1** and **Project 2**, which focus on building and enhancing a mobile-first web application. Each part is available in its respective branch:
+The **Grey's Anatomy Quiz App** is a project from the Web Development Bootcamp at Spiced Academy. This repository showcases **Part 1** and **Part 2** of a mobile-first quiz application themed around the TV series *Grey's Anatomy*, built with plain HTML, CSS, and JavaScript.
+
+🌐 **Live site**: [my-quiz-app-grey-anatomy.vercel.app](https://my-quiz-app-grey-anatomy.vercel.app/)
+
+This is an **advanced solution** that goes beyond the foundational approach. While the app covers the same core features as the vanilla version, almost all pages are generated dynamically through JavaScript — no hardcoded HTML per page. This positions it as a middle ground between a plain HTML solution and a fully component-driven approach like React, and serves as a reference for students to see how far vanilla JS can take you.
+
+Each part is available in its respective branch:
 
 - **Part 1**: Build the basic layout of a mobile quiz app.
 - **Part 2**: Expand functionality, including saving quiz data to local storage.
 
 The **main branch** contains a more sophisticated version of Part 2, with added features such as local storage for quiz data persistence.
 
-## Color Scheme
+### Color Scheme
 
 The app uses the **Grey’s Anatomy Color Scheme** to create a visually cohesive and appealing design:
 
@@ -43,6 +49,7 @@ In Part 2, interactivity and additional functionality are added:
   - A question
   - An answer
   - Hashtags
+
   Newly created question cards are displayed on the Add page.
 
 This phase expands the app to include four pages:
@@ -52,20 +59,41 @@ This phase expands the app to include four pages:
 - **Add Page**: Create and display user-generated questions.
 - **Profile Page**: Manage user profiles and settings.
 
+## What Makes This Solution Different
+
+Unlike the vanilla solution where pages are largely structured in HTML, here **JavaScript is responsible for rendering most of the UI dynamically**. Question cards, page content, and navigation states are all built and injected into the DOM via JS functions — making the codebase a natural stepping stone toward understanding how frameworks like React work under the hood.
+
 ## Learning Outcomes
 
 This project helps students understand:
 
 1. **Responsive Design**: Building layouts for mobile-first web applications.
 2. **Interactivity**: Adding dynamic features using JavaScript.
-3. **Component-Based Architecture**: Structuring reusable elements like question cards across multiple pages.
+3. **Dynamic Rendering**: Using JavaScript to generate and update the DOM instead of relying on static HTML.
+4. **Component-Based Thinking**: Structuring reusable JS functions that mimic the behavior of UI components.
 
-## Technology
+## Technologies
 
 ![My Skills](https://skillicons.dev/icons?i=js,html,css)
 
-- JavaScript,
+- JavaScript
 - HTML
-- CSS &
+- CSS
 
 ## Preview
+
+### Part 1
+
+![Home page](./preview/quiz-app-part-1.gif)
+
+### Part 2: Home Page
+
+![Home Page](./preview/quiz-app-p2-home.gif)
+
+### Part 2: Bookmark Page
+
+![Bookmark page](./preview/quiz-app-p2-bookmark.gif)
+
+### Part 2: Add Question
+
+![Add Question](./preview/quiz-app-p2-add-card.gif)
